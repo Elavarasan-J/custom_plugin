@@ -1,0 +1,63 @@
+ 
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body
+{
+    font-size: 18px;
+    line-height: 27px;
+    cursor: default;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.no-padd
+{
+    padding: 0 !important;
+}
+.no-margin
+{
+    margin: 0;
+}
+a:focus,a:active,a.active,.btn:active,.btn:focus
+{
+    outline: none !important;
+}
+
+input:focus,input:active
+{
+    outline: 0;
+}
+
+a
+{
+    >img
+    {
+        display: block;
+    }
+    &:hover
+    {
+        >img
+        {
+            opacity: 0.8;
+			@include transition(all 0.4s ease-in-out);
+        }
+    }
+}
+
+.large-padding
+{
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.medium-padding
+{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.margin-top-less
+{
+	margin-top: 24px;
+}

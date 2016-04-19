@@ -1,0 +1,266 @@
+ <html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jquery plugins</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <script type="text/javascript" src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body style="padding:25px 0;">
+
+		<div class="container">
+			 
+			
+			<form class="selectForm">
+				<h6>Jquery customSelect plugin :</h6>
+				<select class="player" name="batsman">
+					<option value="0">Choose the option</option>
+					<option value="1">Uv</option>
+					<option value="2">Viru</option>
+					<option value="3">Dada</option>
+				</select>
+
+				<select class="ddl" name="bowler">
+					<option value="0">Choose the option</option>
+					<option value="1">Bhaji</option>
+					<option value="2">Zak</option>
+				</select>
+
+			</form><br>
+			<h6>Jquery customModal plugin :</h6>
+			<div>
+				<button class="modalBox btn btn-success" data-content="#contentModal">Open Popup</button>
+				<button class="modalBox btn btn-success" data-content="#contentModal1">Open popup1</button>
+			</div>
+			<br>
+			<h6>Jquery customtooltip plugin</h6>
+			<button class="btn btn-default" data-toggle="tooltip" data-content="#tooltipContent" data-placement="top" data-title="Tooltip top">T</button>
+			<button class="btn btn-default" data-toggle="tooltip" data-content="#tooltipContent" data-placement="bottom" data-title="Tooltip bottom">B</button>
+			<button class="btn btn-default" data-toggle="tooltip" data-content="#tooltipContent" data-placement="right" data-title="Tooltip right">R</button>
+			<button class="btn btn-default pull-right" data-toggle="tooltip" data-content="#tooltipContent" data-placement="left" data-title="Tooltip left">L</button>
+			<p>dsdfsd</p>
+			
+			<button class="btn btn-default customPopover" data-toggle="popover" data-content="#popoverContent" data-placement="top">Top popover</button>
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="ejsSlider">
+						<div class="ejsSlider-inner">
+							<div class="ejsSlider-item active">
+								<img src="assets/images/slider1.jpg"/>
+							</div>
+							<div class="ejsSlider-item">
+								<img src="assets/images/slider2.jpg"/>
+							</div>
+							<div class="ejsSlider-item">
+								<img src="assets/images/slider3.jpg"/>
+							</div>
+						</div>
+						<a href="#" class="ejsPrev">Prev</a>
+						<a href="#" class="ejsNext">Next</a>
+					</div>
+				</div>
+				<div class="col-lg-4"></div>
+			</div>
+			
+			<h4>ddfgdfgdf</h4>
+			
+		</div>
+		 
+		
+		<!-- Popover Wrapper -->
+		<div class="ejsPopover-wrapper fade" id="tooltipContent">
+			<div class="ejsPopover-arrow"></div>
+			<p>Tooltip</p>
+		</div>
+		
+		<div class="ejsPopover-wrapper" id="popoverContent">
+			<div class="ejsPopover-arrow"></div>
+			<p>Tooltip </p>
+		</div>
+		
+		<div class="ejsPopover-wrapper" id="popoverContent2">
+			<div class="ejsPopover-arrow"></div>
+			<p>printing and typesetting Lorem Ipsum is simply </p>
+		</div>
+		
+		<div class="ejsPopover-wrapper" id="popoverContent3">
+			<div class="ejsPopover-arrow"></div>
+			<ul class="lis">
+				<li>List item 1</li>
+				<li>List item 2</li>
+				<li>List item 3</li>
+				<li>List item 4</li>
+			</ul>
+		</div>
+		
+		 
+		<!--ContentModal -->
+		<div class="ejsModal-wrapper" id="contentModal">
+			<div class="ejsModal-inner">
+				<button class="ejsModal-close"><i class="fa fa-times"></i></button>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply 
+				</p><p>dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+				</p><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			</div>
+		</div>
+		
+		
+		<div class="ejsModal-wrapper" id="contentModal1">
+			<div class="ejsModal-inner">
+				<button class="ejsModal-close"><i class="fa fa-times"></i></button>
+				<p> lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			</div>
+		</div>
+		
+	<form>	
+		<div class="form-fields">
+			<h3>1.Your Gift</h3>
+			<div class="radio-button-wrap one-time">
+				<input type="radio" name="period-selection"/>
+				<label>One time</label>
+			</div>
+			
+			<div class="radio-button-wrap month">
+				<input type="radio" name="period-selection"/>
+				<label>Monthly</label>
+			</div>
+			
+		</div>
+		<div class="form-fields">
+			<h3>2.Your information</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="f-name">First Name</label>
+						<input type="text" class="wpcf7-text" id="f-name"/>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="l-name">Last Name</label>
+						<input type="text" class="wpcf7-text" id="l-name"/>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="addr-1">Address</label>
+						<input type="text" class="wpcf7-text" id="addr-1"/>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="addr-2">Address Line 2</label>
+						<input type="text" class="wpcf7-text" id="addr-2" placeholder="Optional"/>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="city">City</label>
+						<input type="text" class="wpcf7-text" id="city"/>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="state">State/Province </label>
+						<select class="wpcf7-text">
+							<option value="0">Option1</option>
+							<option value="1">Option2</option>
+							<option value="2">Option3</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="zip">ZIP/Postal Code</label>
+						<input type="text" class="wpcf7-text" id="zip"/>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="country">Country</label>
+						<select class="wpcf7-text">
+							<option value="0">dfdf</option>
+							<option value="1">dfdf</option>
+							<option value="2">dfdf</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<div class="form-group">
+						<label for="e-mail">E-mail address </label>
+						<input type="email" id="e-mail" class="wpcf7-text"/>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="ph-num">Mobile Phone </label>
+						<input type="tel" id="ph-num" class="wpcf7-text" placeholder="optional"/>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<span class="help-text">Providing your mobile number subscribes you to receive breaking news and emergency SMS alerts to your mobile phone. Text HELP for help. Text STOP to cancel. Message & data rates may apply.</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="form-fields">
+			<h3>3.Payment information</h3>
+			<div class="row">
+				<div class="col-md-8">
+					<div class="form-group">
+						<label for="card-num">Credit card number</label>
+						<input type="text" id="card-num" class="wpcf7-text"/>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="cvv-num">CVV Number</label>
+						<input type="text" id="cvv-num" class="wpcf7-text"/>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="expiration">Expiration</label>
+						<div class="row">
+							<div class="col-md-6">
+								<select class="wpcf7-text">
+									<option value="0">Jan</option>
+									<option value="1">Feb</option>
+									<option value="2">Mar</option>
+								</select>
+							</div>
+							<div class="col-md-6">
+								<select class="wpcf7-text">
+									<option value="0">2015</option>
+									<option value="1">2016</option>
+									<option value="2">2017</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<button type="submit" class="wpcf7-submit">Donate now</button>
+	</form>
+		
+		
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="assets/js/vendor/jquery-myplugin.js"></script>
+	</body>
+</html>
